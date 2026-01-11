@@ -1,0 +1,63 @@
+{
+    "id": 1,
+    "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "title": "Alan Turing - Wikipedia",
+    "summary": "Alan Mathison Turing OBE FRS (23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist. Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer.",
+    "key_entities": {
+        "people": [
+            "Alan Turing",
+            "Alonzo Church",
+            "Christopher Morcom"
+        ],
+        "organizations": [
+            "University of Cambridge",
+            "Bletchley Park",
+            "National Physical Laboratory"
+        ],
+        "locations": [
+            "United Kingdom",
+            "London",
+            "Manchester"
+        ]
+    },
+    "sections": [
+        "Early life and education",
+        "Career and research",
+        "Cryptanalysis",
+        "Early computers and the Turing test",
+        "Personal life"
+    ],
+    "quiz": [
+        {
+            "question": "Where did Alan Turing study mathematics?",
+            "options": [
+                "Harvard University",
+                "Cambridge University",
+                "Oxford University",
+                "Princeton University"
+            ],
+            "answer": "Cambridge University",
+            "difficulty": "easy",
+            "explanation": "Alan Turing studied at King's College, Cambridge from 1931 to 1934."
+        },
+        {
+            "question": "What was Alan Turing's main contribution during World War II?",
+            "options": [
+                "Atomic research",
+                "Breaking the Enigma code",
+                "Inventing radar",
+                "Developing jet engines"
+            ],
+            "answer": "Breaking the Enigma code",
+            "difficulty": "medium",
+            "explanation": "Turing played a crucial role in breaking German ciphers at Bletchley Park."
+        }
+    ],
+    "related_topics": [
+        "Cryptography",
+        "Enigma machine",
+        "Computer science history",
+        "Artificial Intelligence",
+        "World War II"
+    ]
+}
