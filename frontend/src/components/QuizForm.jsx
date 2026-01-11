@@ -18,7 +18,8 @@ function QuizForm() {
         setQuizData(null)
 
         try {
-            const res = await axios.post('http://localhost:8000/generate-quiz', {
+            const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+            const res = await axios.post(`${API_URL}/generate-quiz`, {
                 url,
                 force_refresh: forceRefresh
             })

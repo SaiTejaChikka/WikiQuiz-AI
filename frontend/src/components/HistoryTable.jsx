@@ -16,7 +16,8 @@ function HistoryTable() {
     const fetchHistory = async () => {
         try {
             setLoading(true)
-            const res = await axios.get('http://localhost:8000/history')
+            const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+            const res = await axios.get(`${API_URL}/history`)
             setHistory(res.data)
         } catch (err) {
             console.error(err)

@@ -15,7 +15,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 def generate_quiz_from_text(text: str, sections: list):
     # Try requested model
     try:
-        model = genai.GenerativeModel('gemini-2.0-flash-exp')
+        model = genai.GenerativeModel('gemini-2.0-flash-lite')
         prompt = f"""
         You are an AI assistant that generates educational quizzes.
     

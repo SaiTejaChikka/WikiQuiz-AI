@@ -10,9 +10,11 @@ models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Wiki Quiz Generator")
 
+import os
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Allow all for dev
+    allow_origins=["*"], # In production, set this to the frontend URL specifically if possible, but * works for public APIs
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
